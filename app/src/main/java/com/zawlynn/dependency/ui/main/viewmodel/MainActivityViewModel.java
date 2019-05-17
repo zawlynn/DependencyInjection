@@ -1,10 +1,9 @@
 package com.zawlynn.dependency.ui.main.viewmodel;
 
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
-import android.arch.lifecycle.MutableLiveData;
-import android.support.annotation.NonNull;
-import android.util.Log;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.MutableLiveData;
+import androidx.annotation.NonNull;
 import com.zawlynn.dependency.constant.Constants;
 import com.zawlynn.dependency.data.network.MovieApi;
 import com.zawlynn.dependency.data.network.response.PopularResponse;
